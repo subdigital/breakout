@@ -12,7 +12,7 @@ class DrawableObject < GameObject
     raise "Unable to draw #{self.class} because x or y was nil" unless x && y
     image.draw x, y, 0, scale_x, scale_y
   end
-  
+
   def load_image
     @image = Gosu::Image.new(window, image_filename)
   end
