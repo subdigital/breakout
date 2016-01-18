@@ -95,7 +95,7 @@ module States
           if ball.bottom >= game.height
             @die.play
             game.balls.delete ball
-            game.die! if game.balls == 0
+            game.die! if game.balls.count == 0
           end
         end
       end
