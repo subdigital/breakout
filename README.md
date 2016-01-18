@@ -2,6 +2,8 @@
 
 A breakout clone, written in Ruby using Gosu.
 
+![](https://raw.githubusercontent.com/subdigital/breakout/master/breakout.gif)
+
 ## Running the game
 
 It requires [gosu](https://www.libgosu.org) and [Hasu](https://github.com/michaelfairley/hasu) to run. To install them:
