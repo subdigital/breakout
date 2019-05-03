@@ -41,7 +41,7 @@ class GameObject
   end
 
   def center_y=(y)
-    self.y = y - heigth/2
+    self.y = y - height/2
   end
 
   def center_point
